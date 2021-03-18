@@ -1,0 +1,43 @@
+body{
+    font-family: Raleway, serif;
+    width: 95%;
+    margin: auto;
+}
+img{
+    max-height: 25%;
+    max-width: 25%;
+}
+li{
+    list-style: none;
+}
+/* **** HEADER **** */
+/* *********** Mise en page **** */
+
+.header{
+    /* display: flex;
+    justify-content: space-between;
+    align-items: baseline; */
+}
+.menuContainer{
+    display: flex;
+    justify-content: space-between;
+
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+.buttonMenu{
+    margin: 20px 50px  ;
+}
+
+
+/* ************ Mise en forme **** */
+
+.logoReservia{
+    max-width: 5%;
+    height: 100%;
+    margin-right: 5%;
+}
+
+
