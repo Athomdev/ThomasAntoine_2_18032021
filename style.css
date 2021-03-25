@@ -149,29 +149,102 @@ input[type=search]{
 }
 /* HEBERGEMENT */
 
-.hebergementContainer{
+
+.cardsHebergements{
+    border: solid blue 4px;
+    box-shadow: grey 2px 2px 2px 2px ;
+    width: 25%;
+    height: auto;
     display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+    border-radius: 25px;
+    pading: 3px;
+    margin-bottom: 10px;
+    background: #ffffff;
 }
-.Hebergements{
-    border-radius: 50px;
-    width: 70%;
-    background: #f6f6f6;
-    margin: 50px;
-}
-.populaireContainer{
-    width: 20%;
-    background: #f6f6f6;
-    border-radius: 50px;
+.imgCard{
+    width: 100%;
+    height: auto;
+    border: solid 2px red;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 .listHebergement{
+    width: auto;
+    height: auto;
+    border-radius: 25px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
     flex-wrap: wrap;
-    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    
 }
-.cardsHebergements{
-    border: 1px solid blue;
-    width: 450px;
-    height: 450px;
+.hebergementContainer{
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    
+
+}
+.Hebergements{
+    width: 70%;
+    padding: 15px;
+    margin: 50px;
+    background-color:#f2f2f2;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px black;
+    display: flex;
+    flex-wrap: wrap;
+}
+.activitesContainer{
+    background-color:#f2f2f2;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+.populaireContainer{
+    background-color:#f2f2f2;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px black;
+    padding: 20px;
+    width: 25%;
+    
+}
+#greyStar{
+    color: #d9d9d9;
+
+}
+.fa-star{
+    color: #0065fc;
+    
+}
+#hebergement{
+    font-size: 1.5em;
+    padding: 30px 0px 0px 70px;
+}
+.cardsPopulaires{
+
+    box-shadow: 2px 2px 2px 2px #b6b6b6;
+    margin-bottom: 15px;
+    padding: 5px;
+    display: inline-flex;
+    background-color: white;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+
+}
+.stars{
+    display: inline-flex;
+}
+.texCard{
+    display: flex;
+    flex-direction: column;
+}
+.imgCardPop{
+    width: 100%;
+    height: auto;
+    border: solid 2px red;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
 }
