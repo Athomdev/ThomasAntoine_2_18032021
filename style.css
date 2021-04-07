@@ -148,62 +148,146 @@ input[type=search]{
     border: #dddddd solid 1px;
     border-radius: 20px;
 }
-/* HEBERGEMENT */
-
-
+/* ***** HERBERGEMENT + POPULAIRE CONTAINER **** */
 .hebergementPopulaireContainer{
-    width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
-    height: auto;
+    align-items: flex-start;
 }
-.listHebergement{
-    width: 100%;
-    height: auto;
-    border-radius: 25px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    /* align-content: space-around; */
-    align-items: baseline;
-
-
-}
-.Hebergements{
+/* HEBERGEMENT */
+.hebergementContainer{
     width: 65%;
-    height: 800px;
-    background-color:#f2f2f2;
+    height: 750px;
+    background-color: #f2f2f2;
+    padding: 15px;
     border-radius: 15px;
+    /* border: greenyellow 2px solid; */
+    display: flex;
+    flex-direction: column;
+
+}
+.groupsCardsHebergementContainer{
+    width: 100%;
+    height: 100%;
+    /* border: hotpink 3px solid; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 0px 25px 0 25px;
-    border: red 2px solid;
 
 }
+.groupCardsHebergementContainer{
+    /* border: blue solid 2px; */
+    display: flex;
+    justify-content: space-around;
+}
+.cardsHebergementContainer{
 
-.cardsHebergements{
-    border: solid white 1px;
-    box-shadow: grey 2px 2px 2px 2px ;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 2px 5px 1px 3px #e7e7e7;
+    display: flex;
+    flex-direction: column;
     max-width: 30%;
     height: auto;
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: baseline; */
-    /* flex-direction: column; */
-    border-radius: 25px;
-    padding: 3px;
-    margin: 10px;
-    background: #ffffff;
+    /* min-height: 250px; */
+    max-height: 300px;
+}
+.imgHebergementContainer{
+    display: flex;
+    justify-content: space-around;
+    /* border: green 2px solid; */
+    padding: 0px;
+    margin: 5px;
+    border-top-right-radius: 15px ;
+    border-top-left-radius: 15px;
+    height: 65%;
+    overflow: hidden;
+}
+.imgHebergement{
+    display: flex;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.infoHotel{
+    padding: 0px;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    
+}
+.nameHotelHeberg{
+    font-weight: bolder;
+    font-size: larger;
+}
+.titleHebergement{
+    padding-left: 30px;
 }
 
-.activitesContainer{
-    background-color:#f2f2f2;
+
+
+/* ***** POPULAIRE ***** */
+
+.populaireContainer{
+    background-color: #f2f2f2;
+    width: 27%;
+    height: 750px;
+    padding: 20px;
     border-radius: 15px;
-    box-shadow: 2px 2px 2px 2px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.populaireTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.cardPopulaire{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    background-color: #ffffff;
+    border-radius: 15px;
+    justify-content: space-between;
+    padding: 5px;
+    box-shadow: #e6e6e6 1px 5px 5px 3px;
+}
+.imgPopulaireContainer{
+    display: flex;
+    width: 40%;
+    
+    margin: 5px;
+    
+}
+.infoHotel{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+    padding: 10px;
+}
+.imgPopulaire{
+    width: 100%;
+    max-height: 150px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    
 }
 
+
+
+/* ***** Mise en Page populaire ***** */
+
+.nameHotelPop{
+    font-weight: bolder;
+    font-size: large;
+}
+
+/* **** Etoiles ***** */
 #greyStar{
     color: #d9d9d9;
 
@@ -220,90 +304,51 @@ input[type=search]{
 .stars{
     display: inline-flex;
 }
-/* ***** Cards ***** */
-.textCardHebergement{
 
-    font-size: medium;
+/* **** ACTIVITE ***** */
+.activitesContainer{
     display: flex;
     flex-direction: column;
-}
-h4{
-    font-size: small;
-    font-weight: bolder;
-}
-.imgHebergement{
-    /* border: black 1px solid; */
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-}
-.imgCard{
-
-    width: 100%;
-    height: auto;
-    min-width: 100%;
-    max-height: 140px;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-
-
-}
-
-
-/* ***** POPULAIRE ***** */
-
-.populaireContainer{
-    border: aqua 2px solid;
-    background: #f2f2f2;
-    border-radius: 15px;
-    padding: 10px;
-    width: 27%;
-    height: 800px;
-    padding: 50px;
-
-
-}
-.headPop{
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-}
-.listPopulaires{
-
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-
-    height: 80%;
-    width: 100%;
-
-
-}
-.cardsPopulaires{
+    width: 95%;
+    height: 750px;
     border: solid 2px;
-    display: flex;
-    background: #ffffff;
-    border-radius: 15px;
-    max-width: 100%;
-    height: auto;
 }
-.textCardPop{
+.cardsActivitesContainer{
+    display: flex;
+    justify-content: center;
+    border: solid violet 2px;
+    width: 100%;
+    height: 100%;
+}
+.halfActiviteContainer{
+    border:green 5px solid;
+   display: flex;
+    width: 100%;
+    height: 100%;
+    ;
+}
+.cardActiviteLeftContainer{
+    border: blue solid 10px;
     display: flex;
     flex-direction: column;
-    margin: 5px;
-}
-.imgCardPop{
-    display: flex;
-    width: 40%;
-    height: auto;
-    max-height: 135px;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    margin: 5px;  
-    border: violet solid 3px;  
-}
+    justify-content: space-between;
 
+
+}
+.cardActiviteRightContainer{
+    border: red solid 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cardActiviteTopRight{
+    border: solid 2px green;
+    height: 65%;
+}
+.cardActiviteBottomRight{
+    border: greenyellow 2px solid;
+    height: 30%;
+}
 
 
 
@@ -318,12 +363,13 @@ h4{
 }
 
 .more{
-    border: none;
-    display: flex;
-    justify-content: left;
-    font-size: medium;
-    font-weight: normal;
-    padding: 20px
+    margin: 30px;
+    padding: 10px 10px 10px 10px;
+    font-size: larger;
+    font-weight: bolder;
+    text-decoration: none;
+    width: 115px;
+
 }
 .more:hover{
 
