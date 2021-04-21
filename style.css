@@ -72,7 +72,7 @@ li{
 .gps{
     color: black;
     background-color: #f6f6f6 ;
-    padding: 15px 15px 15px 15px;
+    padding: 13px 15px 15px 15px;
     border-top-left-radius: 25%;
     border-bottom-left-radius: 25%;
 }
@@ -80,9 +80,10 @@ input[type=search]{
     outline: none;
     border-left: none;
     border-right: none;
-    border-top: solid, #f6f6f6, 10px;
+    border: solid 2px #f6f6f6;
     font-size: larger;
-    padding: 9px 0px 11px 5px;
+    padding: 8px 0px 13px 5px;
+    margin: -5px;
 }
 .buttonSearch{
     background-color: #0065fc;
@@ -332,7 +333,7 @@ input[type=search]{
 }
 
 /* **** Etoiles ***** */
-#greyStar{
+.fas.greyStar{
     color: #d9d9d9;
 
 }
