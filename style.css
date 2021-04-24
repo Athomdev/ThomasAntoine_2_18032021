@@ -11,6 +11,9 @@ a{
     text-decoration: none;
     color: black;
 }
+a:hover{
+    color: blue;
+}
 
 li{
     list-style: none;
@@ -45,7 +48,7 @@ li{
 
 }
 .buttonMenu{
-    padding: 50px 50px 0px 50px;
+    padding: 50px 25px 0px 25px;
 }
 .buttonMenu:hover{
     border-top: solid 2px blue;
@@ -95,7 +98,7 @@ input[type=search]{
     border: none;
 }
 .buttonIcon{
-    display: none;
+    display: none !important;
 }
 .filterIcon:hover{
     background-color: white;
@@ -341,10 +344,7 @@ input[type=search]{
     color: #0065fc;
 
 }
-#hebergement{
-    font-size: 1.5em;
 
-}
 
 .stars{
     display: inline-flex;
