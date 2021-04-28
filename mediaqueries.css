@@ -59,6 +59,7 @@
    .more{
        margin-top: -35px;
    }
+ 
    /* POPULAIRE ** */
    .populaireContainer{
     margin-top: 50px;
@@ -229,6 +230,7 @@
             padding-bottom: 20px;
             border-bottom: solid 2px #d9d9d9;
             padding-left: 50px;
+    
         }
         #hebergement:hover{
             border-bottom: solid 2px blue;
@@ -275,7 +277,7 @@
         }
         .buttonIcon{
             display: block !important;
-            padding: -20px;
+         
         }
         .buttonSearch{
             padding: 0px 15px 16px 15px ;
