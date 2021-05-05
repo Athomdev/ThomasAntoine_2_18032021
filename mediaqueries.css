@@ -212,8 +212,8 @@
         }
         #inscription{
         position: relative;
-        top: -120px;
-        right: 120px;
+        top: -110px;
+        right: 20px;
         min-width: 40%;
         }
         #inscription:hover{
@@ -230,6 +230,7 @@
             padding-bottom: 20px;
             border-bottom: solid 2px #d9d9d9;
             padding-left: 50px;
+            margin-right: -150px ;
     
         }
         #hebergement:hover{
@@ -240,6 +241,9 @@
             font-size: 1.5em;
             padding-bottom: 20px;
             border-bottom: solid 2px #d9d9d9;
+            position: absolute;
+            top: 144px;
+            right: -300px;
         }
         #activites:hover{
             border-bottom: solid 2px blue;
