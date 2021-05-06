@@ -14,7 +14,9 @@ a{
 a:hover{
     color: blue;
 }
-
+img{
+    object-fit: cover;
+}
 li{
     list-style: none;
 }
