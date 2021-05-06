@@ -150,6 +150,8 @@
        padding: 0px;
        margin-top: 0px;
    }
+  /* Header responsive */
+
   
    /* **** PETITS ECRANS **** */
    @media screen and (max-width: 480px)
@@ -202,7 +204,7 @@
             width: 100%;
             
         }
-        /* MENU */ 
+        MENU 
         .logoReservia{
             position: relative;
             top: 5px;
@@ -225,27 +227,27 @@
             border-top: none;
             
         }
-        #hebergement{
+        /* #hebergement{
             font-size: 1.5em;
             padding-bottom: 20px;
             border-bottom: solid 2px #d9d9d9;
             padding-left: 50px;
             margin-right: -150px ;
     
-        }
-        #hebergement:hover{
+        } */
+        /* #hebergement:hover{
             border-bottom: solid 2px blue;
         }
-        
-        #activites{
+         */
+        /* #activites{
             font-size: 1.5em;
             padding-bottom: 20px;
             border-bottom: solid 2px #d9d9d9;
             position: absolute;
             top: 144px;
             right: -300px;
-        }
-        #activites:hover{
+        } */
+        /* #activites:hover{
             border-bottom: solid 2px blue;
         }
         a:hover{
@@ -260,6 +262,7 @@
         .menuMobile{
             min-width: 100%;
             display: flex;
+            justify-content: flex-start;
             align-items: center;
             margin-left: 150px;
             padding-bottom: 50px;
@@ -269,7 +272,7 @@
             border-bottom: blue solid 2px;
             color: blue;
         
-        }
+        } */
         .hebergementPopulaireContainer{
             margin-left: -20px;
         }
@@ -293,5 +296,7 @@
         }
 
     }
+/* Media nouveau header */
+
 
 }

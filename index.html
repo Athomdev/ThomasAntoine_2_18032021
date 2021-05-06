@@ -17,19 +17,16 @@
     <title>Reservia</title>
 </head>
 <body>
-    <!-- ***** Header ***** -->
-    <header class="header">
 
-        <nav class="menuContainer">
-            <img class="logoReservia" src="images/logo/Reservia@3x.png" alt="Logo de Reservia">
-            <ul class="menu">
-                
-                <li id="hebergement" class="buttonMenu menuMobile"><a href="#hebergement">Hébergement</a></li>
-                <li id="activites" class="buttonMenu menuMobile"><a href="#activites">Activités</a></li>
-                
-                <li id="inscription" class="buttonMenu"><a href="">S'inscrire</a></li>
-            </ul>
+    <!--Header responsive-->
+    <header class="header">
+        <img class="logo" src="images/logo/Reservia.svg" alt="Reservia">
+        <nav class="menu">
+          <a class="lienMenu" href="#hosting" data-active="true">Hébergement</a>
+          <a class="lienMenu" href="#activity" data-active="false">Activités</a>
         </nav>
+        <a class="headerSignup" href="#">S'inscrire</a>
+      </header>
     </header>
 
     <!-- ***** Recherche ****** -->
@@ -198,7 +195,7 @@
         
     </section>
     <!-- ***** ACTIVITE CONTAINER ***** -->
-    <!-- <br><br><br><br> -->
+    
     <section class="activitesContainer">
         <h2>Activites à Marseilles</h2>
         <div class="cardsActivitesContainer">
